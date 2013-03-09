@@ -16,7 +16,7 @@ SITE_ID = 1
 
 SECRET_KEY = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
 
-ROOT_URLCONF = 'example_project.urls'
+ROOT_URLCONF = 'example.urls'
 
 TEMPLATE_DIRS = (
     os.path.join(PROJECT_ROOT, 'templates'),
